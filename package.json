@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A personal website for Arj404",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomearjun/personal-website.git"
+  },
+  "author": "Arj404",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awesomearjun/personal-website/issues"
+  },
+  "homepage": "https://github.com/awesomearjun/personal-website#readme"
+}
