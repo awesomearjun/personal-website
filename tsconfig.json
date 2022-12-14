@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-        "allowJs": false,
-        "rootDir": "./src/typescript/",
-        "outDir": "./src/javascript/",
-        "target": "esnext"
-    }
-}
