@@ -4,7 +4,9 @@
   "description": "A personal website for Arj404",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "compile": "tsc -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/awesomearjun/personal-website/issues"
   },
-  "homepage": "https://github.com/awesomearjun/personal-website#readme"
+  "homepage": "https://github.com/awesomearjun/personal-website#readme",
+  "dependencies": {
+    "vite": "^4.0.1"
+  }
 }
