@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #318CE7;
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  background-color: #272727;
+  height: 100%;
+  width: 7vw;
+}
+.nav:not(:last-child) {
+  display: flex;
+  gap: 1rem;
+}
+.nav img {
+  display: block;
+  width: 5vw;
+  margin: auto;
+}
+
+/*# sourceMappingURL=index.css.map */
