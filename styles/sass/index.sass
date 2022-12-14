@@ -16,16 +16,23 @@ $nav-items: 4
 $second-last: calc($nav-items - 1)
 
 .nav
+    position: fixed
     background-color: #272727
     height: 100%
     width: 07vw
 
-    &:not(:last-child)
-        display: flex
-        gap: 1rem
+    .last-element
+        position: absolute
+        left: 1vw
+        bottom: 0.5vw
 
     img
         display: block
         width: 05vw
         margin: auto
+        margin-top: 0.5vw
 
+    a[title]:hover::after
+        content: attr(title)
+        background-color: black
+        color: white
